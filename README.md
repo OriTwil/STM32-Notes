@@ -2,7 +2,7 @@
 STM32笔记
 
 #### 说明
-此仓库整理了STM32学习的学习方向，学习资源（文档、文章链接、视频教程），主要参考[WTR战队谢阳学长的WTR电控培训讲义](https://github.com/MirTITH/WTR-EC-Training)、WTR网盘中各位学长的学习资源、[南工骁鹰谢胜学长的电控培训](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=3&spm_id_from=pageDriver&vd_source=baa784078e67e28c38d26cf6881f8357)，还有一些学习过程中看过的文章等，后续会随着学习的进行继续更新
+此仓库整理了STM32学习的学习方向，学习资源（文档、文章链接、视频教程）、实验代码，主要参考[WTR战队谢阳学长的WTR电控培训讲义](https://github.com/MirTITH/WTR-EC-Training)、WTR网盘中各位学长的学习资源、[南工骁鹰谢胜学长的电控培训](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=3&spm_id_from=pageDriver&vd_source=baa784078e67e28c38d26cf6881f8357)，还有一些学习过程中看过的文章等，后续会随着学习的进行继续更新
 
 #### 电控培训思路
 + 首先，新加入的电控组成员需要保证对前置知识的熟练掌握，如C语言、git等
