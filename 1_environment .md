@@ -1,18 +1,10 @@
-<!--
- * @Author: szf
- * @Date: 2022-12-23 20:09:32
- * @LastEditTime: 2022-12-25 02:21:53
- * @LastEditors: szf
- * @Description: 
- * @FilePath: \STM32-Notes\1_environment .md
- * @WeChat:szf13373959031
--->
 ## **开发环境搭建(Windows) & STM32基础**
 
 #### 环境配置
 *  _CubeMX_
 * _gcc-arm-none-eabi_
 *  _Keil_
+   > Keil和VSCode + EIDE各有优势，比如Keil有一些仿真和可视化的工具，VSCode更美观，也可以通过各种插件提高开发效率，建议都学一学，具体开发时根据自己习惯选择
 * _VS Code_
   > 1. VSCode + EIDE 代替 Keil
   > 2. VSCode + CMake(怎么编译运行C/C++程序)
@@ -36,10 +28,11 @@
 
 
 #### 教程推荐
-- _[谢阳学长的开发环境配置详细教程](https://github.com/MirTITH/WTR-EC-Training/blob/main/01-stm32%E5%9F%BA%E7%A1%80%EF%BC%8C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/01-stm32%E5%9F%BA%E7%A1%80%EF%BC%8C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)_
+- [谢阳学长的开发环境配置详细教程](https://github.com/MirTITH/WTR-EC-Training/blob/main/01-stm32%E5%9F%BA%E7%A1%80%EF%BC%8C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/01-stm32%E5%9F%BA%E7%A1%80%EF%BC%8C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
+- 如果你想用VSCode,看看[这篇教程](https://github.com/MirTITH/WTR-EC-Training/tree/main/Tips%E5%90%88%E9%9B%86)，详细写了怎么配置VSCode，使用Debug等经验
 - [配置环境的文章](https://blog.csdn.net/qq_38191568/article/details/126012144?spm=1001.2014.3001.5502)
-- _[视频教程](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=2&spm_id_from=pageDriver&vd_source=baa784078e67e28c38d26cf6881f8357)_
--  _STM32基础：战队网盘里可以找到_[WTR2021夏季STM32培训02-STM32入门.pdf]
+- [视频教程](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=2&spm_id_from=pageDriver&vd_source=baa784078e67e28c38d26cf6881f8357)
+-  WTR培训讲义-STM32基础
 -  [实验教程](https://blog.csdn.net/qq_38191568/article/details/126021237)
 #### 小任务
    * 配置开发环境,遇到问题,可以在战队仓库Issues里提问或记录、分享自己的解决方案
