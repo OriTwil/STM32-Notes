@@ -1,17 +1,34 @@
 <!--
  * @Author: szf
  * @Date: 2023-01-03 23:05:53
- * @LastEditTime: 2023-01-03 23:51:41
+ * @LastEditTime: 2023-01-05 19:19:13
  * @LastEditors: szf
  * @Description: 
- * @FilePath: \STM32-Notes\cubemx.md
+ * @FilePath: \STM32-Notes\Note\cubemx.md
  * @WeChat:szf13373959031
 -->
+# 软件使用
+- 帮助![](2023-01-05-18-41-50.png)
+  ```latex
+  1. Docs&Resouses 手册
+  2. Check for Updates 更新
+  ```
 # 基础配置
 - 时钟 ![](2023-01-03-23-10-50.png)
-  > 外部晶振，可以都选外部晶振Crystal/Ceramic Resonator。
+  ```latex
+  外部晶振，可以都选外部晶振Crystal/Ceramic Resonator。
+  ```
 - debug![](2023-01-03-23-11-25.png)
-  > SW模式就选择serial Wire。JTAG模式就选择JTAG。stlink调试就是SW模式，jlink调试就是JTAG模式
+  ```latex
+  1. SW模式就选择serial Wire。JTAG模式就选择JTAG。stlink调试就是SW模式，jlink调试就是JTAG模式
+  2. Timebase Source选择的是SysTick，因为这里不使用RTOS，使用RTOS的话这里最好选择一个Timer，这个后面再做详细介绍
+  ```
+- 中断![](2023-01-05-17-24-29.png)
+  ```latex
+  1. Priority Group 设置优先级分组
+  2. Preemption Priority 抢占优先级
+  3. Sub Priority 副优先级
+  ```
 - 时钟树![](2023-01-03-23-13-19.png)
 - Project![](2023-01-03-23-14-08.png)
   ```latex
@@ -35,3 +52,80 @@
     ```
 
 # GPIO
+- GPIO配置![](2023-01-04-18-34-25.png)
+  ```latex
+  1. GPIO output level : 默认输出电平
+  
+  2. GPIO mode GPIO : 输出模式
+
+  3. GPIO Pull-up/Pull-down : 上拉、下拉配置
+
+  4. 最大输出速度
+
+  5. 自定义别名
+  ```
+
+# TIM
+- 选择定时器和通道![](2023-01-04-19-09-50.png)
+- 定时器配置![](2023-01-04-19-22-06.png)
+  ```latex
+  1. Slave Mode和Trigger Source都是用于设置定时器主从配置的选项，暂时用不到
+  2. Clock Source：定时器时钟源，选择Internal Clock
+  3. Combined Channals : 自带的编码器模式
+  ```
+- 通道配置![](2023-01-04-19-23-36.png)
+  ```latex
+  ```
+- 参数设置![](2023-01-04-19-24-59.png)
+  ```latex
+  ```
+- 中断与DMA![](2023-01-04-19-26-00.png)![](2023-01-05-17-23-32.png)![](2023-01-04-19-26-55.png)
+  ```latex
+  ```
+
+# USART
+- 选择引脚![](2023-01-05-17-17-10.png)
+  ```latex
+  ```
+- 配置模式![](2023-01-05-17-18-03.png)
+  ```latex
+  1. 异步模式 单工模式 多处理通讯
+  ```
+- 参数配置![](2023-01-05-17-20-19.png)
+  ```latex
+  波特率 数据位 校验位 停止位
+  ```
+- 中断与DMA![](2023-01-05-17-20-54.png)
+  ```latex
+  ```
+
+# IIC
+- 模式配置![](2023-01-05-17-39-33.png)
+- 参数配置![](2023-01-05-17-40-13.png)
+  ```latex
+  1. Master  features  主模式特性
+  2. I2C Speed Mode： IIC模式设置 快速模式和标准模式。实际上也就是速率的选择。
+  3. I2C Clock Speed：I2C传输速率，默认为100KHz
+  4. Slave  features  从模式特性
+  5. Clock No Stretch Mode： 时钟没有扩展模式
+    (IIC时钟拉伸(Clock stretching)
+    clock stretching通过将SCL线拉低来暂停一个传输.直到释放SCL线为高电平,传输才继续进行.clock stretching是可选的,实际上大多数从设备不包括SCL驱动,所以它们不能stretch时钟.)
+  6. Primary Address Length selection： 从设备地址长度 设置从设备的地址是7bit还是10bit 大部分为7bit
+  7. Dual Address Acknowledged： 双地址确认
+  8. Primary slave address：  从设备初始地址
+  ```
+- 中断与DMA![](2023-01-05-17-42-27.png)
+
+# SPI
+- ![](2023-01-05-17-55-14.png)
+  ```latex
+  ```
+
+# CAN
+- ![](2023-01-05-18-17-46.png)
+- ![](2023-01-05-18-18-06.png)
+
+# FREERTOS
+- Timebase Source![](2023-01-05-18-19-34.png)
+- 版本![](2023-01-05-18-20-29.png)
+- 
