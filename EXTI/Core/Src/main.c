@@ -109,6 +109,7 @@ int main(void)
       HAL_UART_Transmit(&huart1,data,1,10);
       HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
   }
+}
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -165,12 +166,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-<<<<<<< HEAD
   HAL_UART_Receive_IT(&huart1,&data_receive,1);
   cnt_usart++;
-=======
-
->>>>>>> 849eee4d6144a86b893e9b7c1feb4e82f9cca38e
 }
 /* USER CODE END 4 */
 

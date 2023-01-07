@@ -1,16 +1,12 @@
-<!--
- * @Author: szf
- * @Date: 2022-12-23 20:13:41
- * @LastEditTime: 2023-01-02 23:37:49
- * @LastEditors: szf
- * @Description: CAN
- * @FilePath: \STM32-Notes\9_can.md
- * @WeChat:szf13373959031
--->
 # CAN
 
 #### 内容
 
 #### 推荐教程
 
+- WTR2021夏季STM32培训06-CAN
+- 群文件——手册——CAN相关内容
+- [CAN视频教程](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=10&vd_source=baa784078e67e28c38d26cf6881f8357)
 #### 小任务
+- 用祖传代码转DJI电机，看祖传代码（重点部分写注释，分享出来，或有优化的想法也可以讨论）
+- 进阶：（1）实现极轮（2）遥控器控制（3）阻尼轮
