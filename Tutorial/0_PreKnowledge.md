@@ -27,6 +27,14 @@
 
 #### _CPP/Python_
 - STM32暂时用不到,但后续玩上位机要用
+- 
+#### _ChatGPT_
+- 首先注册个Google账号，包括gmail等。手机号不通过的，试试把手机地区改成香港，或者浏览器语言改英文试试
+- [官网](https://chat.openai.com/chat)，注册账号
+- 中间需要手机号，[这个网站](https://sms-activate.org/)租一个外国手机号，[教程](https://sms-activate.org/cn/info/ChatGPT)
+- 过程中显示"不提供服务"等，基本都是因为代理被封了，换个干净点的代理，多试几个节点就好
+- 搞明白怎么高效地向ChatGPT提问
+
 ## _学习资源分享_
 - 视频教程
   > bilibili
