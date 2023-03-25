@@ -34,6 +34,8 @@
 - 中间需要手机号，[这个网站](https://sms-activate.org/)租一个外国手机号，[教程](https://sms-activate.org/cn/info/ChatGPT)
 - 过程中显示"不提供服务"等，基本都是因为代理被封了，换个干净点的代理，多试几个节点就好
 - 搞明白怎么高效地向ChatGPT提问
+- [一些指令](https://vfqxua5lvd.feishu.cn/docx/S6m3dw2IwosKKdxkEGscWDY2nQe)
+- 也可以试试Edge-dev ＋ New bing，不过这个好像限制比较多
 
 ## _学习资源分享_
 - 视频教程
