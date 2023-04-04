@@ -69,6 +69,8 @@
 - [正点原子论坛](http://47.111.11.73/forum.php)
 - [野火论坛](http://www.proewildfire.cn/)
 
+## 同类文章
+- [浙大某同学的blog](https://blog.hobbitqia.cc/p/5948019b.html)
 
   
 
