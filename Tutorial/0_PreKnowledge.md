@@ -71,6 +71,7 @@
 
 ## 同类文章
 - [浙大某同学的blog](https://blog.hobbitqia.cc/p/5948019b.html)
+- [稚慧君的Clion开发STM32分享](https://zhuanlan.zhihu.com/p/145801160)
 
   
 
