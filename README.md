@@ -3,7 +3,7 @@ STM32笔记
 
 #### 说明
 - 此仓库整理了STM32的学习内容，学习资源（文档、文章链接、视频教程）、小实验和示例代码
-- 主要参考[WTR战队谢阳学长的WTR电控培训讲义](https://github.com/MirTITH/WTR-EC-Training)、梁思奇学长等各位学长的培训讲义（在战队网盘中，也会发群里）、[RM谢胜学长的电控培训](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=3&spm_id_from=pageDriver&vd_source=baa784078e67e28c38d26cf6881f8357)，[博客园](https://www.cnblogs.com/),[CSDN文章（CubeMX教程）](https://blog.csdn.net/as480133937/article/details/99935090?spm=1001.2014.3001.5502)，还有一些学习过程中看过的文章等，后续会随着学习的进行继续更新。
+- 主要参考[WTR战队谢阳学长的WTR电控培训讲义](https://github.com/MirTITH/WTR-EC-Training)、梁思奇学长等各位学长的培训讲义（在战队网盘中，也会发群里）、[RM谢胜学长的电控培训](https://www.bilibili.com/video/BV1Sy4y1y7B1?p=3&spm_id_from=pageDriver&vd_source=baa784078e67e28c38d26cf6881f8357)，[博客园](https://www.cnblogs.com/),[CSDN文章（CubeMX教程）](https://blog.csdn.net/as480133937/article/details/99935090?spm=1001.2014.3001.5502)，freeRTOS、Mavlink等官网,还有一些学习过程中看过的文章等，后续会随着学习的进行继续更新。
 
 #### 电控培训思路
 + 新加入的电控组成员提前学习一下前置知识, 详细内容见PreKnowledge.md
